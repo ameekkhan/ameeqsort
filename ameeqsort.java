@@ -99,12 +99,12 @@ int[] numbers= {117, 50, 49, 35, 153, 174, 99, 172, 10, 102, 165, 55, 85, 189, 1
 			}
 
 		}
-		long startTime = System.nanoTime();
+	//	long startTime = System.nanoTime();
 		quadrupleSort(numbers, remainder);
 		merge(numbers, k);
-		long endTime = System.nanoTime();
-		long duration = (endTime - startTime);
-		System.out.println(duration);
+	//	long endTime = System.nanoTime();
+		//long duration = (endTime - startTime);
+		//System.out.println(duration);
 		System.out.println(numbers);
 
 	}
