@@ -3,7 +3,7 @@ package sorts.comparison.com;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MySort {
+public class AmeeqSort {
 
 	static int temp = 0;
 	static int mid = 0;
