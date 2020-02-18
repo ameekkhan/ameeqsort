@@ -1,4 +1,4 @@
-# Ameeqsort Algorithm
+# Ameeqsort
 Ameeq Sort a new sorting algorithm (n*logn)
 
 Algorithm:
