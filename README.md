@@ -30,9 +30,9 @@ N = 19
 
 K(number of quadruples) = N/4 
 
-K=3
+K=4
 
-Remainder elements = N - 4(K) = 15 - 4*3 = 3
+Remainder elements = N - 4(K) = 19 - 4*4 = 3
 
 So my input array will divide into below pattern:
 
