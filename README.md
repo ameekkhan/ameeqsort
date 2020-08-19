@@ -28,7 +28,7 @@ Let's take an example:
 
 N = 15
 
-K=N/4 (number of quadruples)
+K(number of quadruples) = N/4 
 
 K=3
 
