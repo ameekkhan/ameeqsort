@@ -32,7 +32,7 @@ K(number of quadruples) = N/4
 
 K=3
 
-Remainder elements = N - 4(k) = 15 - 4*3 = 3
+Remainder elements = N - 4(K) = 15 - 4*3 = 3
 
 So my input array will divide into below pattern:
 3
