@@ -26,7 +26,7 @@ The first function quadrupleSort() will sort the group of 4 elements. The second
 
 Let's take an example:
 
-N = 15
+N = 19
 
 K(number of quadruples) = N/4 
 
@@ -45,8 +45,10 @@ So my input array will divide into below pattern:
 
 4
 
-Merging:
+4
 
+Merging:
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 
 
