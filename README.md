@@ -48,7 +48,8 @@ So my input array will divide into below pattern:
 4
 
 Merging:
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture.PNG)
+
 
 
 
