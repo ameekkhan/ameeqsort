@@ -47,24 +47,19 @@ So my input array will divide into below pattern:
 
 Merging:
 
-3
-            7
-4
 
-4
-            8
-4
 
-----------------------------------
 
-3
-          7
-4
-                        15 (Now our input array is sorted)
 
-4
-          8
-4
+
+
+
+
+
+
+
+
+
 
 
 First, seperately sort the remainder elements its size is 3. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted then pass this partially sorted input array to merge() function to merge all the quadruples and remainder elements.
