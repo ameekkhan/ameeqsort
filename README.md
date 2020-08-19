@@ -48,6 +48,8 @@ So my input array will divide into below pattern:
 4
 
 Merging:
+
+
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture.PNG)
 
 
