@@ -13,6 +13,7 @@ Algorithm:
 This algorithm is consist on two major functions:
 
 a) quadrupleSort()
+
 b) merge()
 
 The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks/groups by using the same fashion like we do in merge sort.
@@ -26,8 +27,11 @@ The first function quadrupleSort() will sort the group of 4 elements. The second
 Let's take an example:
 
 N = 15
+
 K=N/4 (number of quadruples)
+
 K=3
+
 Remainder elements = N - 4(k) = 15 - 4*3 = 3
 
 So my input array will divide into below pattern:
@@ -37,4 +41,4 @@ So my input array will divide into below pattern:
 4
 First, seperately sort the remainder elements. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted then pass this partially sorted input array to merge() function to merge all the quadruples and remainder elements.
 
-I hope you like this *sort*
+I hope you like my *sort*
