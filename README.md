@@ -2,6 +2,7 @@
 Ameeq Sort a new sorting algorithm.
 
 Time Complexity : O(N*logN)
+
 Space Complexity : O(N)
 
 It is a variant of merge sort with different merge strategy.
