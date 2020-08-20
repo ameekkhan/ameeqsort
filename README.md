@@ -114,16 +114,16 @@ I imagine every quadruple in matrix form of 2 by 2:
 
 Quadruple#1:
 
-a[0]  *4*      a[1]  *3*
+a[0]  *4*   &nbsp   a[1]  *3*
 
-a[2]  *2*      a[3]  *1*
+a[2]  *2*   &nbsp   a[3]  *1*
 
 
 Quaruple#2:
 
-a[4]  *11*    a[5]  *10*	
+a[4]  *11* &nbsp   a[5]  *10*	
 
-a[6]  *9*    a[7]  *7*
+a[6]  *9*  &nbsp  a[7]  *7*
 
 
 
