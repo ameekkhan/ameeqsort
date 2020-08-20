@@ -18,9 +18,9 @@ b) merge()
 
 The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks/groups by using the same fashion like we do in merge sort.
 
-1) IF N = 2^n where N is the input size of array. Then I make the chunks of input array and the chunk size is 4 then I sort theses chunks by using fixed five number of comparisons.   
+1) IF N = 2^n where N is the input size of array. Then I make the chunks of input array and the chunk size is 4. And then I sort theses chunks by using fixed five number of comparisons.   
 
-2) Once the every chunk bieng sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
+2) Once the every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
 
 3) If N is not equal to 2^n then first I sort the remaider elements [1-3] using basic comparisons. And if N > 4 then I will be left with the number of elements which will be divisible by 4.
 
@@ -48,6 +48,7 @@ So my input array will divide into below pattern:
 4
 
 Merging:
+----------
 
 
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture.PNG)
@@ -95,6 +96,39 @@ Then Merging of all quadruples using merge()
 
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture1.PNG)
 
+
+
+
+How  quadrupleSort() works?
+----------------------------
+
+To easily understand or remember the 5 comparisons technique that I am using in quadrupleSort() function. 
+
+Let’s say N=8; N is the size of input;
+
+K=N/4; where K is the number of quadruples. So in this case K=2.
+
+a[8] = 4,3,2,1,11,10,9,7
+
+I visualize every quadruple in matrix form of 2 by 2.
+
+Quadruple#1:
+
+a[0] *4*    a[1] *3*	
+a[4] *11*   a[5] *10*
+
+Quaruple#2:
+
+a[2] *2*    a[3] *1*	
+a[6] *9*   a[7] *7*
+
+
+
+
+
+
+
+is similar to **Sorting network**  of 4 wires and 5 comparators. 
 
 
 
