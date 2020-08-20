@@ -77,7 +77,7 @@ K = N / 4 => 16/4 => 4 (number of quadruples)
 
 Remainder elements = N - 4(K) => 16 - 16 = 0
 
-So there are 0 number of remainder elements now the pattern of splitting will look like:
+So, in this case the number of remainder elements is 0 now the pattern of splitting will look like:
 
 4
 
