@@ -89,7 +89,7 @@ So, in this case the number of remainder elements is 0 now the pattern of splitt
 4
 
 
-First, every quadruple will be get sorted using quadrupleSort()
+Every quadruple will be get sorted using quadrupleSort()
 
 Then Merging of all quadruples using merge()
 
@@ -128,15 +128,15 @@ a[6]  *9*    a[7]  *7*
 
 Now, let's apply 5 comparisons on every quadruple/matrix .
 
-I first do two *column wise* comparison and then two *row wise* comparison and last the diagonal comparison thus five fixed number of comparisons are required to sort the 4 values.
+I will first do two *column wise* comparison and then two *row wise* comparison and finally the diagonal comparison thus five fixed number of comparisons are required to sort the 4 values.
 
-So, first I do column wise compare the index 0 and index 2 smaller element will take the position of index 0 then again do column wise comparison between index 1 and index 3 smaller element will swap with index 1. After applying only column wise comparisons on quadruple#1: 
+In Column wise compare the index 0 and index 2 smaller element will take the position of index 0 then again do column wise comparison between index 1 and index 3 smaller element will swap with index 1. After applying only column wise comparisons on quadruple#1: 
 
 a[0]  *7*      a[1]  *5*
 
 a[2]  *8*      a[3]  *6*
 
-After the completion of column wise, Now apply row wise comparison between index 0 and index 1 smaller value will take the position of index 0 and then apply row wise comparison between index 2 and index 3 smaller value will take the position of index 2. After applying 2 column and 2 row wise comparisons our quadruple#1: 
+After the completion of column wise, Now apply the row wise comparison between index 0 and index 1 smaller value will take the position of index 0 and then apply row wise comparison between index 2 and index 3 smaller value will take the position of index 2. After applying 2 column and 2 row wise comparisons our quadruple#1: 
 
 a[0]  *5*      a[1]  *7*
 
@@ -162,7 +162,8 @@ This above array will be pass to merge() function to merge every quadruples.
 
 
 
-This approach is also similar to **Sorting network**  of 4 wires and 5 comparators.
+This 5 comparison approach is also similar to **Sorting network**  of 4 wires and 5 comparators.
+
 
 
 
