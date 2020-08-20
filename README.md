@@ -56,18 +56,6 @@ Merging:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 First, seperately sort the remainder elements in this above case its size is 3. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted. I pass it to merge() function to merge all the quadruples and remainder elements.
 
 Example if N=2^n
@@ -99,7 +87,7 @@ Then Merging of all quadruples using merge()
 
 
 
-How  quadrupleSort() works?
+How  quadrupleSort() function works?
 ----------------------------
 
 To easily understand or remember the 5 comparisons technique that I am using in quadrupleSort() function. 
