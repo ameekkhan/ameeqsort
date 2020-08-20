@@ -93,7 +93,8 @@ First, every quadruple will be get sorted using quadrupleSort()
 Then Merging of all quadruples using merge()
 
 
-![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture.PNG)
+![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture1.PNG)
+
 
 
 
