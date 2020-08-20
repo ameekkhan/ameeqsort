@@ -68,7 +68,7 @@ Merging:
 
 
 
-First, seperately sort the remainder elements in this above case its size is 3. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted then pass this partially sorted input array to merge() function to merge all the quadruples and remainder elements.
+First, seperately sort the remainder elements in this above case its size is 3. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted. I pass it to merge() function to merge all the quadruples and remainder elements.
 
 Example if N=2^n
 
@@ -155,7 +155,7 @@ After the completion of quadrupleSort():
 
 a[8] = [5,6,7,8,7,9,10,11]
 
-This above array will be pass to merge() function to merge every quadruples.
+In last the above array will pass to merge() function to merge every quadruples as discussed above.
 
 
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture2.PNG)
