@@ -165,6 +165,8 @@ In last the above array will pass to merge() function to merge every quadruples 
 This 5 comparison approach is also similar to **Sorting network**  of 4 wires and 5 comparators.
 
 
+![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/sorting_network.PNG)
+
 
 
 I hope you like my *sort*
