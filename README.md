@@ -158,6 +158,7 @@ a[8] = [5,6,7,8,7,9,10,11]
 This above array will be pass to merge() function to merge every quadruples.
 
 
+![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture2.PNG)
 
 
 
