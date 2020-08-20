@@ -110,16 +110,18 @@ K=N/4; where K is the number of quadruples. So in this case K=2.
 
 a[8] = 4,3,2,1,11,10,9,7
 
-I visualize every quadruple in matrix form of 2 by 2.
+I imagine every quadruple in matrix form of 2 by 2:
 
 Quadruple#1:
 
-a[0] *4*    a[1] *3*	
+a[0] *4*    a[1] *3*
+
 a[4] *11*   a[5] *10*
 
 Quaruple#2:
 
 a[2] *2*    a[3] *1*	
+
 a[6] *9*   a[7] *7*
 
 
