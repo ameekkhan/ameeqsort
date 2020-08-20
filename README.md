@@ -108,15 +108,15 @@ Let’s say N=8; N is the size of input;
 
 K=N/4; where K is the number of quadruples. So in this case K=2.
 
-a[8] = [4,3,2,1,11,10,9,7]
+a[8] = [8,5,7,6,11,10,9,7]
 
 I imagine every quadruple in matrix form of 2 by 2:
 
 Quadruple#1:
 
-a[0]  *4*      a[1]  *3*
+a[0]  *8*      a[1]  *5*
 
-a[2]  *2*      a[3]  *1*
+a[2]  *7*      a[3]  *6*
 
 
 Quaruple#2:
@@ -126,12 +126,42 @@ a[4]  *11*   a[5]  *10*
 a[6]  *9*    a[7]  *7*
 
 
+Now, let's apply 5 comparisons on every quadruple/matrix .
+
+I first do two *column wise* comparison and then two *row wise* comparison and last the diagonal comparison thus five fixed number of comparisons are required to sort the 4 values.
+
+So, first I do column wise compare the index 0 and index 2 smaller element will take the position of index 0 then again do column wise comparison between index 1 and index 3 smaller element will swap with index 1. After applying only column wise comparisons on quadruple#1: 
+
+a[0]  *7*      a[1]  *5*
+
+a[2]  *8*      a[3]  *6*
+
+After the completion of column wise, Now apply row wise comparison between index 0 and index 1 smaller value will take the position of index 0 and then apply row wise comparison between index 2 and index 3 smaller value will take the position of index 2. After applying 2 column and 2 row wise comparisons our quadruple#1: 
+
+a[0]  *5*      a[1]  *7*
+
+a[2]  *6*      a[3]  *8*
+
+
+Last the diagonal comparison between a[1] and a[2] smaller value will take the postion of index 1. The complete sorted quadruple:
+
+a[0]  *5*      a[1]  *6*
+
+a[2]  *7*      a[3]  *8*
+
+So this every quadruple will be get sorted by using this five comparisons.
+
+After the completion of quadrupleSort():
+
+a[8] = [5,6,7,8,7,9,10,11]
+
+This above array will be pass to merge() function to merge every quadruples.
 
 
 
 
 
-is similar to **Sorting network**  of 4 wires and 5 comparators. 
+This approach is also similar to **Sorting network**  of 4 wires and 5 comparators.
 
 
 
