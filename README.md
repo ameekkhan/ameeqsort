@@ -90,7 +90,7 @@ Then Merging of all quadruples using merge()
 How  quadrupleSort() function works?
 ----------------------------
 
-To easily understand or remember the 5 comparisons technique that I am using in quadrupleSort() function. 
+To easily understand or remember the 5 comparisons technique in quadrupleSort() function. 
 
 Let’s say N=8; N is the size of input;
 
@@ -124,20 +124,20 @@ a[0]  *7*      a[1]  *5*
 
 a[2]  *8*      a[3]  *6*
 
-After the completion of column wise, Now apply the row wise comparison between index 0 and index 1 smaller value will take the position of index 0 and then apply row wise comparison between index 2 and index 3 smaller value will take the position of index 2. After applying 2 column and 2 row wise comparisons our quadruple#1: 
+After the completion of column wise, Now apply the row wise comparison between index 0 and index 1 smaller value will take the position of index 0 and then apply row wise comparison between index 2 and index 3 smaller value will take the position of index 2. After applying 2 column and 2 row wise comparisons on quadruple#1: 
 
 a[0]  *5*      a[1]  *7*
 
 a[2]  *6*      a[3]  *8*
 
 
-Last the diagonal comparison between a[1] and a[2] smaller value will take the postion of index 1. The complete sorted quadruple:
+Last the diagonal comparison between a[1] and a[2] smaller value will take the postion of index 1. The complete sorted quadruple#1:
 
 a[0]  *5*      a[1]  *6*
 
 a[2]  *7*      a[3]  *8*
 
-So this every quadruple will be get sorted by using this five comparisons.
+So this way every quadruple will be get sorted by using this five comparisons.
 
 After the completion of quadrupleSort():
 
@@ -157,11 +157,17 @@ This 5 comparison approach is also similar to **Sorting network**  of 4 wires an
 
 
 
-RunTime Analysis
--------------
+
+How  merge() function works?
+----------------------------
+
+After the completion of quadrupleSort() the merge() function invokes and the merging approach is almost similar to a classical merge sort. The only difference is instead of splitting the array recursively until we get the array size 1 we will stop the splitting when the array size reach to 4.
 
 
+Benchmarking
+--------------
 
+All the benchmarks was on Windows 10 64 bit operating system and the source code was compiled on Eclipse Compiler for Java JDK 1.8 
 
 
 I hope you like my *sort*
