@@ -1,11 +1,9 @@
 # MergeSort++
-Mergesort++ a new sorting algorithm.
+Mergesort++ a new variant of merge sort.
 
 Time Complexity : O(N*logN)
 
 Space Complexity : O(N)
-
-It is a variant of merge sort.
 
 Algorithm:
 ---------------
