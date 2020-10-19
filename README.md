@@ -1,11 +1,11 @@
-# ameeqsort
-Ameeq Sort a new sorting algorithm.
+# MergeSort++
+Mergesort++ a new sorting algorithm.
 
 Time Complexity : O(N*logN)
 
 Space Complexity : O(N)
 
-It is a variant of merge sort with different merge strategy.
+It is a variant of merge sort.
 
 Algorithm:
 ---------------
@@ -16,14 +16,13 @@ a) quadrupleSort()
 
 b) merge()
 
-The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks/groups by using the same fashion like we do in merge sort.
+The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks by using the same fashion like we do in merge sort.
 
 1) IF N = 2^n where N is the input size of array. Then I make the chunks of input array and the chunk size is 4. And then I sort theses chunks by using fixed five number of comparisons.   
 
 2) Once the every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
 
-3) If N is not equal to 2^n then first I sort the remaider elements [1-3] using basic comparisons. And if N > 4 then I will be left with the number of elements which will be divisible by 4.
-
+3) If N is not equal to 2^n then first I sort the remaider elements [1-3] using simple comparisons.
 Let's take an example if N is not equal to 2^n:
 
 N = 19
@@ -92,7 +91,7 @@ How  quadrupleSort() function works?
 
 To easily understand or remember the 5 comparisons technique in quadrupleSort() function. 
 
-Let’s say N=8; N is the size of input;
+N=8; N is the size of input;
 
 K=N/4; where K is the number of quadruples. So in this case K=2.
 
@@ -167,7 +166,7 @@ After the completion of quadrupleSort() the merge() function invokes and the mer
 Benchmarking
 --------------
 
-All the benchmarks was on Windows 10 64 bit operating system and the source code was compiled on Eclipse Compiler for Java JDK 1.8 
+All the benchmarks was on Windows 10 64 bit operating system and the source code was compiled on Eclipse Compiler for Java JDK 1.8
 
 
 I hope you like my *sort*
