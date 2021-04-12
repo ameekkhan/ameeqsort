@@ -5,6 +5,8 @@ Time Complexity : O(N*logN)
 
 Space Complexity : O(N)
 
+###Note: My algorithm is almost working in same fashion like [QuadSort](https://github.com/scandum/quadsort) but I visualize the mergesort++ in different way and the algo is working slightly different.
+
 Algorithm:
 ---------------
 
