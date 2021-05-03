@@ -76,7 +76,7 @@ So, in this case the number of remainder elements is 0 now the pattern of splitt
 4
 
 
-Every quadruple will be get sorted using quadrupleSort()
+Every quadruple will be sorted using quadrupleSort()
 
 Then Merging of all quadruples using merge()
 
@@ -89,10 +89,9 @@ Then Merging of all quadruples using merge()
 How  quadrupleSort() function works?
 ----------------------------
 
-To easily understand or remember the 5 comparisons technique in quadrupleSort() function. 
+For better understanding of 5 comparisons technique in quadrupleSort() function. 
 
-N=8; N is the size of input;
-
+N=8;
 K=N/4; where K is the number of quadruples. So in this case K=2.
 
 a[8] = [8,5,7,6,11,10,9,7]
@@ -160,7 +159,7 @@ This 5 comparison approach is also similar to **Sorting network**  of 4 wires an
 How  merge() function works?
 ----------------------------
 
-After the completion of quadrupleSort() the merge() function invokes and the merging approach is almost similar to a classical merge sort. The only difference is instead of splitting the array recursively until we get the array size 1 we will stop the splitting when the array size reach to 4.
+After the completion of quadrupleSort() I invokes the merge() function and the merging approach is almost similar to a classical merge sort. The only difference is instead of splitting the array recursively until we get the array size 1 we will stop the splitting when the array size reach to 4 that's base condition in merge() function.
 
 
 Benchmarking
