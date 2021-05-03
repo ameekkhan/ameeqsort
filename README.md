@@ -190,4 +190,4 @@ When I ran the sort on the 1 million random integers below are the exection time
 
 There is a MainFile.java where I invoke all the sorts and compare their runtime with all other sorts.
 
-All the sorts implementation are in Java some implementations were taken from the libraries and some from the well known academic websites link is also given in every indivisual sort code.
+All the sorts implementation are in Java some implementations were taken from the libraries and some of them from the well known academic websites and the link is also given in every indivisual sort code.
