@@ -1,5 +1,5 @@
 # MergeSort++
-Mergesort++ a new variant of merge sort.
+Mergesort++ a variant of merge sort.
 
 Time Complexity : O(N*logN)
 
