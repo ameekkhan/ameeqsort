@@ -168,5 +168,25 @@ Benchmarking
 
 All the benchmarks was on Windows 10 64 bit operating system and the source code was compiled on Eclipse Compiler for Java JDK 1.8
 
+When I ran all the sorts on the 1024 random integers below are the exection time in nanoseconds.
 
-I hope you like my *sort*
+Size of list is :1024
+ Execution Time of MergeSort++ in milli seconds: 735900
+ Execution Time of Timsort in milli seconds: 1200200
+ Execution Time of MergeSort in milli seconds: 810100
+ Execution Time of QuickSort in milli seconds: 540300
+ Execution Time of HeapSort in milli seconds: 912600
+ Execution Time of DualPivotQuickSort in milli seconds: 715200
+ Execution Time of IntroSort in milli seconds: 690200
+
+When I ran the sort on the 1 million random integers below are the exection time in milliseconds.
+
+ Execution Time of MergeSort++ in milli seconds: 115
+ Execution Time of Timsort in milli seconds: 122
+ Execution Time of MergeSort in milli seconds: 125
+ Execution Time of QuickSort in milli seconds: 109
+ Execution Time of HeapSort in milli seconds: 118
+ Execution Time of DualPivotQuickSort in milli seconds: 60
+ Execution Time of IntroSort in milli seconds: 55
+
+All the sorts implementation are in Java some implementations were taken from the libraries and some from the well known academic websites.
