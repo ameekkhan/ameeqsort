@@ -167,7 +167,7 @@ Benchmarking
 
 All the benchmarks was on Windows 10 64 bit operating system and the source code was compiled on Java JDK 1.8
 
-When I ran all the sorts on the 1024 random integers below are the exection time in nanoseconds.
+When I ran all the sorts on the 1024 random integers below are the exection time in nanoseconds with single iteration.
 
  - Execution Time of MergeSort++ in milli seconds: 735900
  - Execution Time of Timsort in milli seconds: 1200200
@@ -177,7 +177,7 @@ When I ran all the sorts on the 1024 random integers below are the exection time
  - Execution Time of DualPivotQuickSort in milli seconds: 715200
  - Execution Time of IntroSort in milli seconds: 690200
 
-When I ran the sort on the 1 million random integers below are the exection time in milliseconds.
+When I ran the sort on the 1 million random integers below are the exection time in milliseconds with single iteration.
 
  - Execution Time of MergeSort++ in milli seconds: 115
  - Execution Time of Timsort in milli seconds: 122
