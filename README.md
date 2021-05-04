@@ -165,7 +165,7 @@ After the completion of quadrupleSort() I invokes the merge() function and the m
 Benchmarking
 --------------
 
-All the benchmarks was on Windows 10 64 bit operating system and the source code was compiled on Java JDK 1.8
+All the benchmarks was on Core i7 processor and Windows 10 64 bit operating system with 4gb ram and the source code was compiled on Java JDK 1.8
 
 When I ran all the sorts on the 1024 random integers below are the exection time in nanoseconds with single iteration.
 
