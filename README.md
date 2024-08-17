@@ -18,11 +18,11 @@ b) merge()
 
 The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks by using the same fashion like we do in merge sort.
 
-1) IF N = 2^n where N is the input size of array. Then I make the chunks of input array and the chunk size is 4. And then I sort theses chunks by using fixed five number of comparisons.   
+1) If N = 2^n (even number) where N is the input size of an array. Then I make the chunks of the input array and the chunk size is 4. And then I sort these chunks by using fixed five number of comparisons.   
 
-2) Once the every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
+2) Once every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
 
-3) If N is not equal to 2^n then first I sort the remaider elements [1-3] using simple comparisons.
+3) If N is not equal to 2^n which means that it is not an even number then I first sort the remainder elements [1-3] using simple comparisons.
 Let's take an example if N is not equal to 2^n:
 
 N = 19
