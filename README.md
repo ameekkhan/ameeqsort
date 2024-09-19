@@ -18,11 +18,11 @@ b) merge()
 
 The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks by using the same fashion like we do in merge sort.
 
-1) If N = 2^n (even number) where N is the input size of an array. Then I make the chunks of the input array and the chunk size is 4. And then I sort these chunks by using fixed five number of comparisons.   
+1) If N = 2*n (even number) where N is the input size of an array. Then I make the chunks of the input array and the chunk size is 4. And then I sort these chunks by using fixed five number of comparisons.   
 
 2) Once every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
 
-3) If N is not equal to 2^n which means that it is not an even number then I first sort the remainder elements [1-3] using simple comparisons.
+3) If N is not equal to 2*n (even number) which means that it is not an even number then I first sort the remainder elements [1-3] using simple comparisons.
 Let's take an example if N is not equal to 2^n:
 
 N = 19
@@ -57,7 +57,7 @@ Merging:
 
 First, seperately sort the remainder elements in this above case its size is 3. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted. I pass it to merge() function to merge all the quadruples and remainder elements.
 
-Example if N=2^n
+Example if N=2*n(even number)
 
 N = 16
 
@@ -65,7 +65,7 @@ K = N / 4 => 16/4 => 4 (number of quadruples)
 
 Remainder elements = N - 4(K) => 16 - 16 = 0
 
-So, in this case the number of remainder elements is 0 now the pattern of splitting will look like:
+So, in this case the number of remainder elements is 0 now the pattern of splitting will be:
 
 4
 
@@ -89,7 +89,7 @@ Then Merging of all quadruples using merge()
 How  quadrupleSort() function works?
 ----------------------------
 
-For better understanding of 5 comparisons technique in quadrupleSort() function. 
+For better understanding of the 5 comparisons technique in quadrupleSort() function. 
 
 N=8;
 K=N/4; where K is the number of quadruples. So in this case K=2.
