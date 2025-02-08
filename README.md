@@ -5,7 +5,7 @@ Time Complexity : O(N*logN)
 
 Space Complexity : O(N)
 
-#### Note: My algorithm is almost working in same fashion like [QuadSort](https://github.com/scandum/quadsort) but I visualize the mergesort++ in different way and the approach is slightly different.
+#### Note: My algorithm is almost working in same way like [QuadSort](https://github.com/scandum/quadsort) but I visualize the mergesort++ in different way and the approach is slightly different.
 
 Algorithm:
 ---------------
@@ -16,14 +16,14 @@ a) quadrupleSort()
 
 b) merge()
 
-The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks by using the same fashion like we do in merge sort.
+The first function quadrupleSort() will sort the group of 4 elements. The second function merge() will merge all the sorted chunks like we do in merge sort.
 
-1) If N = 2*n (even number) where N is the input size of an array. Then I make the chunks of the input array and the chunk size is 4. And then I sort these chunks by using fixed five number of comparisons.   
+1) If N = 2*n (even number) where N is the input size of an array. Then I make the chunk of 4 of that input array and sort these chunks by using the fixed five number of comparisons.   
 
-2) Once every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks like in classical merge sort.
+2) Once every chunk is sorted by using that five comparisons technique then I merge all the sorted chunks using merge function.
 
-3) If N is not equal to 2*n (even number) which means that it is not an even number then I first sort the remainder elements [1-3] using simple comparisons.
-Let's take an example if N is not equal to 2^n:
+3) If N is not equal to 2*n (even number) which means that it is not an even number then I first sort the remainder elements it could be from [1-3] elements using simple comparisons.
+Let's take an example if N is not equal to 2*n:
 
 N = 19
 
@@ -34,7 +34,6 @@ K=4
 Remainder elements = N - 4(K) = 19 - 4*4 = 3
 
 So my input array will divide into below pattern:
-
 
 3
 
@@ -51,8 +50,6 @@ Merging:
 
 
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture.PNG)
-
-
 
 
 First, seperately sort the remainder elements in this above case its size is 3. And then sort all the quadruple's by using the quadrupleSort() function. Once the every quadruple's and remainder elements are sorted. I pass it to merge() function to merge all the quadruples and remainder elements.
@@ -112,7 +109,7 @@ a[4]  *11*   a[5]  *10*
 a[6]  *9*    a[7]  *7*
 
 
-Now, let's apply 5 comparisons on every quadruple/matrix .
+Now, let's apply 5 comparisons on every quadruple.
 
 I will first do two *column wise* comparison and then two *row wise* comparison and finally the diagonal comparison thus five fixed number of comparisons are required to sort the 4 values.
 
@@ -135,13 +132,13 @@ a[0]  *5*      a[1]  *6*
 
 a[2]  *7*      a[3]  *8*
 
-So this way every quadruple will be get sorted by using this five comparisons.
+So this way every quadruple will be get sorted by using that five comparisons.
 
-After the completion of quadrupleSort():
+After the completion of quadrupleSort() our array will be like:
 
 a[8] = [5,6,7,8,7,9,10,11]
 
-In last the above array will pass to merge() function to merge every quadruples as discussed above.
+In last the above array will pass to merge() function to merge every quadruples.
 
 
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/Capture2.PNG)
@@ -154,12 +151,7 @@ This 5 comparison approach is also similar to **Sorting network**  of 4 wires an
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/sorting_network.PNG)
 
 
-
-
-How  merge() function works?
-----------------------------
-
-After the completion of quadrupleSort() I invokes the merge() function and the merging approach is almost similar to a classical merge sort. The only difference is instead of splitting the array recursively until we get the array size 1 we will stop the splitting when the array size reach to 4 that's base condition in merge() function.
+After the completion of quadrupleSort() I call the merge() function.
 
 
 Benchmarking
