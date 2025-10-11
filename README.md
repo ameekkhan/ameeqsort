@@ -151,34 +151,34 @@ This 5 comparison approach is also similar to **Sorting network**  of 4 wires an
 ![Image of Merging](https://github.com/ameekkhan/ameeqsort/blob/master/sorting_network.PNG)
 
 
-After the completion of quadrupleSort() I call the merge() function.
+After the completion of quadrupleSort(), I call the merge() function.
 
 
 Benchmarking
 --------------
 
-All the benchmarks was on Core i7 processor and Windows 10 64 bit operating system with 4gb ram and the source code was compiled on Java JDK 1.8
+All the benchmarks were on Core i7 processor and Windows 10 64 bit operating system with 4 GB RAM and the source code was compiled on Java JDK 1.8
 
-When I ran all the sorts on the 1024 random integers below are the exection time in nanoseconds with single iteration.
+When I ran all the sorts on the 1024 random integers, below are the execution times in nanoseconds with a single iteration.
 
- - Execution Time of MergeSort++ in milli seconds: 735900
- - Execution Time of Timsort in milli seconds: 1200200
- - Execution Time of MergeSort in milli seconds: 810100
- - Execution Time of QuickSort in milli seconds: 540300
- - Execution Time of HeapSort in milli seconds: 912600
- - Execution Time of DualPivotQuickSort in milli seconds: 715200
- - Execution Time of IntroSort in milli seconds: 690200
+ - Execution Time of MergeSort++ in milliseconds: 735900
+ - Execution Time of Timsort in milliseconds: 1200200
+ - Execution Time of MergeSort in milliseconds: 810100
+ - Execution Time of QuickSort in milliseconds: 540300
+ - Execution Time of HeapSort in milliseconds: 912600
+ - Execution Time of DualPivotQuickSort in milliseconds: 715200
+ - Execution Time of IntroSort in milliseconds: 690200
 
-When I ran the sort on the 1 million random integers below are the exection time in milliseconds with single iteration.
+When I ran the sort on the 1 million random integers, below are the execution times in milliseconds with a single iteration.
 
- - Execution Time of MergeSort++ in milli seconds: 115
- - Execution Time of Timsort in milli seconds: 122
- - Execution Time of MergeSort in milli seconds: 125
- - Execution Time of QuickSort in milli seconds: 109
- - Execution Time of HeapSort in milli seconds: 118
- - Execution Time of DualPivotQuickSort in milli seconds: 60
- - Execution Time of IntroSort in milli seconds: 55
+ - Execution Time of MergeSort++ in milliseconds: 115
+ - Execution Time of Timsort in milliseconds: 122
+ - Execution Time of MergeSort in milliseconds: 125
+ - Execution Time of QuickSort in milliseconds: 109
+ - Execution Time of HeapSort in milliseconds: 118
+ - Execution Time of DualPivotQuickSort in milliseconds: 60
+ - Execution Time of IntroSort in milliseconds: 55
 
 There is a MainFile.java where I invoke all the sorts and compare their runtime with all other sorts.
 
-All the sorts implementation are in Java some implementations were taken from the open source libraries and some of them from the academic websites and the link is also given in every individual sort code.
+All the sorting implementations are in Java some implementations were taken from the open source libraries and some of them from the academic websites. The link is also given in every individual sort code.
